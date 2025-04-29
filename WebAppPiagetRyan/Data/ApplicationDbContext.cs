@@ -11,7 +11,7 @@ public class ApplicationDbContext : IdentityDbContext
     {
     }
 
-public DbSet<WebAppPiagetRyan.Models.Aluno> Aluno { get; set; } = default!;
+public DbSet<Aluno> Aluno { get; set; } = default!;
 
-public DbSet<WebAppPiagetRyan.Models.Base> Base { get; set; } = default!;
+public DbSet<Base> Base { get; set; } = default!;
 }
